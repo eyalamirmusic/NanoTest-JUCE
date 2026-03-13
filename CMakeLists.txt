@@ -18,6 +18,5 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(JUCE NanoTest)
 
-juce_add_console_app(Tests PRODUCT_NAME "Tests" VERSION 0.1.0)
-nano_setup_target(Tests SOURCES Tests.cpp TARGETS juce_core)
 enable_testing()
+add_subdirectory(Tests)
