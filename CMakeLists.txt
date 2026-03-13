@@ -7,6 +7,7 @@ include(FetchContent)
 FetchContent_Declare(
     JUCE
     URL https://github.com/juce-framework/JUCE/archive/refs/tags/8.0.12.zip
+    DOWNLOAD_EXTRACT_TIMESTAMP TRUE
 )
 
 FetchContent_Declare(
