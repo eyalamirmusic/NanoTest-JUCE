@@ -18,5 +18,7 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(JUCE NanoTest)
 
+juce_add_module(Modules/custom_module)
+
 enable_testing()
 add_subdirectory(Tests)
